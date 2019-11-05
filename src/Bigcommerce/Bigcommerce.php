@@ -1,11 +1,11 @@
 <?php
 
-namespace Oseintow\Bigcommerce;
+namespace Kudobuzz\Bigcommerce;
 
 use Config;
 use Bigcommerce\Api\Connection as BigcommerceClient;
 use Bigcommerce\Api\Client as BigcommerceCollectionResource;
-use Oseintow\Bigcommerce\Exceptions\BigcommerceApiException;
+use Kudobuzz\Bigcommerce\Exceptions\BigcommerceApiException;
 
 
 class Bigcommerce

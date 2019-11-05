@@ -1,11 +1,10 @@
 {
-    "name": "oseintow/laravel-bigcommerce",
-    "description": "Laravel bigcommerce package",
+    "name": "kudobuzz/laravel-bigcommerce",
+    "description": "Laravel bigcommerce package for kudobuzz users",
     "license": "MIT",
     "authors": [
         {
-            "name": "michael osei ntow",
-            "email": "oseintow@gmail.com"
+            "name": "kudobuzz"
         }
     ],
     "require": {
@@ -15,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Oseintow\\": "src/"
+            "Kudobuzz\\": "src/"
         }
     },
     "config": {
@@ -24,10 +23,10 @@
      "extra": {
          "laravel": {
              "providers": [
-                 "Oseintow\\Bigcommerce\\BigcommerceServiceProvider"
+                 "Kudobuzz\\Bigcommerce\\BigcommerceServiceProvider"
              ],
              "aliases": {
-                 "Bigcommerce": "Oseintow\\Bigcommerce\\Facades\\Bigcommerce"
+                 "Bigcommerce": "Kudobuzz\\Bigcommerce\\Facades\\Bigcommerce"
              }
          }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Oseintow\Bigcommerce;
+namespace Kudobuzz\Bigcommerce;
 
 use Config;
 use Illuminate\Support\ServiceProvider;
@@ -25,7 +25,7 @@ class BigcommerceServiceProvider extends ServiceProvider
             __DIR__ . '/../config/bigcommerce.php' => config_path('bigcommerce.php'),
         ]);
 
-        $this->app->alias('Bigcommerce', 'Oseintow\Bigcommerce\Facades\Bigcommerce');
+        $this->app->alias('Bigcommerce', 'Kudobuzz\Bigcommerce\Facades\Bigcommerce');
     }
 
     /**
