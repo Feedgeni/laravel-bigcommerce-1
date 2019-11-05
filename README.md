@@ -7,7 +7,7 @@ This package support the Version 2 and 3 of the Bigcommerce Api.
 
 Add package to composer.json
 
-    composer require oseintow/laravel-bigcommerce
+    composer require kudobuzz/laravel-bigcommerce
 
 Add the service provider to config/app.php in the providers array.
 
@@ -16,7 +16,7 @@ Add the service provider to config/app.php in the providers array.
 
 'providers' => [
     ...
-    Oseintow\Bigcommerce\BigcommerceServiceProvider::class,
+    Kudobuzz\Bigcommerce\BigcommerceServiceProvider::class,
 ],
 ```
 
@@ -27,7 +27,7 @@ Setup alias for the Facade
 
 'aliases' => [
     ...
-    'Bigcommerce' => Oseintow\Bigcommerce\Facades\Bigcommerce::class,
+    'Bigcommerce' => Kudobuzz\Bigcommerce\Facades\Bigcommerce::class,
 ],
 ```
 
@@ -113,7 +113,7 @@ If you prefer to use dependency injection over facades like me, then you can inj
 
 ```php5
 use Illuminate\Http\Request;
-use Oseintow\Bigcommerce\Bigcommerce;
+use Kudobuzz\Bigcommerce\Bigcommerce;
 
 class Foo
 {
