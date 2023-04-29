@@ -8,9 +8,9 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "illuminate/support": "^5.4",
-        "bigcommerce/api": "^3.0"
+        "php": ">=7.4",
+        "illuminate/support": "6.*",
+        "bigcommerce/api": "^3.3.3"
     },
     "autoload": {
         "psr-4": {
