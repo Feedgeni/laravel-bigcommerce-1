@@ -1,10 +1,10 @@
 {
-    "name": "kudobuzz/laravel-bigcommerce",
-    "description": "Laravel bigcommerce package for kudobuzz users",
+    "name": "feedgeni/laravel-bigcommerce",
+    "description": "Laravel bigcommerce package for FeedGeni users",
     "license": "MIT",
     "authors": [
         {
-            "name": "kudobuzz"
+            "name": "FeedGeni"
         }
     ],
     "require": {
