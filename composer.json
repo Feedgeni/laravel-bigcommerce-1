@@ -9,7 +9,7 @@
     ],
     "require": {
         "php": ">=7.4",
-        "illuminate/support": "6.*",
+        "illuminate/support": "7.*",
         "bigcommerce/api": "^3.3.3"
     },
     "autoload": {
