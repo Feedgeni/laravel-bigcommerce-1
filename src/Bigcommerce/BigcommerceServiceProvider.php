@@ -35,10 +35,7 @@ class BigcommerceServiceProvider extends ServiceProvider
      */
     public function register()
     {
-         $this->app->singleton('bigcommerce', function($app)
-         {
-             return new Bigcommerce();
-         });
+         $this->app->singleton('bigcommerce', fn($app) => new Bigcommerce());
     }
 
     /**

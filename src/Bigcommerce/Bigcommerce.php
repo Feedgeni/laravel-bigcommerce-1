@@ -69,7 +69,7 @@ class Bigcommerce
      */
     public function setStoreHash($storeHash)
     {
-        $storeHash = explode("/", $storeHash);
+        $storeHash = explode("/", (string) $storeHash);
         $this->storeHash = $storeHash[count($storeHash) - 1];
 
         return $this;
@@ -134,7 +134,7 @@ class Bigcommerce
             }
 
             return $this->version== "v2" ?
-                collect($data) : collect($data)->map(function($value) { return collect($value); });
+                collect($data) : collect($data)->map(fn($value) => collect($value));
 
         }catch(Exception $e){
             throw new BigcommerceApiException($e->getMessage(), $e->getCode());

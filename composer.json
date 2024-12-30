@@ -8,8 +8,8 @@
         }
     ],
     "require": {
-        "php": ">=7.3",
-        "illuminate/support": "8.*",
+        "php": "^8.1.0",
+        "illuminate/support": "^9.0",
         "bigcommerce/api": "^3.3.3"
     },
     "autoload": {
@@ -29,5 +29,8 @@
                  "Bigcommerce": "Kudobuzz\\Bigcommerce\\Facades\\Bigcommerce"
              }
          }
+    },
+    "require-dev": {
+        "rector/rector": "^2.0"
     }
 }
