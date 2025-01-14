@@ -8,8 +8,8 @@
         }
     ],
     "require": {
-        "php": "^8.1.0",
-        "illuminate/support": "^9.0",
+        "php": "^8.2.0",
+        "illuminate/support": "^10.0",
         "bigcommerce/api": "^3.3.3"
     },
     "autoload": {
